@@ -1,15 +1,15 @@
 # -*- encoding: utf-8 -*-
-VERSION = "1.0"
+VERSION = "0.0.1"
 
 Gem::Specification.new do |spec|
   spec.name          = "OTGHelpers"
   spec.version       = VERSION
   spec.authors       = ["Mark Rickert"]
   spec.email         = ["mjar81@gmail.com"]
-  spec.description   = %q{TODO: Write a gem description}
-  spec.summary       = %q{TODO: Write a gem summary}
+  spec.description   = "A set of class extenstions I commonly use in my applications for RubyMotion."
+  spec.summary       = "A set of class extenstions I commonly use in my applications for RubyMotion."
   spec.homepage      = ""
-  spec.license       = ""
+  spec.license       = "MIT"
 
   files = []
   files << 'README.md'
