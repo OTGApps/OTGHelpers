@@ -1,6 +1,6 @@
 # OTGHelpers
 
-TODO: Write a gem description
+A set of class extenstions I commonly use in my applications for RubyMotion.
 
 ## Installation
 
@@ -15,10 +15,6 @@ And then execute:
 Or install it yourself as:
 
     $ gem install OTGHelpers
-
-## Usage
-
-TODO: Write usage instructions here
 
 ## Contributing
 
