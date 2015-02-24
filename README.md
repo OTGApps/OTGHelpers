@@ -2,19 +2,52 @@
 
 A set of class extenstions I commonly use in my applications for RubyMotion.
 
+## Current additions:
+
+### UILabel
+
+#### `auto_height_for_width(change_width=false)`
+
+Automatically resizes a UILabel's height based on its contents. Optionally, it can shrink the width as well.
+
+### NSString
+
+#### `uiimage`
+
+Runs `UIImage.imageNamed(self)` for the string.
+
+### UIView
+
+### `add_borders(locations, color, width = 1)`
+
+Adds borders in specified locations on a `UIView`. Possible locations are: `[:top, :left, :right, :bottom]` and can be passed singularly or in an array.
+
+### `add_top_border(color, width)`
+### `add_right_border(color, width)`
+### `add_bottom_border(color, width)`
+### `add_left_border(color, width)`
+
+These methods are used by the `add_borders` method and can be called independently if needed. 
+
 ## Installation
 
 Add this line to your application's Gemfile:
 
-    gem 'OTGHelpers'
+```ruby
+gem 'OTGHelpers'
+```
 
 And then execute:
 
-    $ bundle
+```bash
+$ bundle
+```
 
 Or install it yourself as:
 
-    $ gem install OTGHelpers
+```bash
+$ gem install OTGHelpers
+```
 
 ## Contributing
 
