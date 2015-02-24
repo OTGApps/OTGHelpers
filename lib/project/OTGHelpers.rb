@@ -1,4 +1,0 @@
-class Otghelpers
-
-end
-
