@@ -18,16 +18,22 @@ Runs `UIImage.imageNamed(self)` for the string.
 
 ### UIView
 
-### `add_borders(locations, color, width = 1)`
+#### `add_borders(locations, color, width = 1)`
 
 Adds borders in specified locations on a `UIView`. Possible locations are: `[:top, :left, :right, :bottom]` and can be passed singularly or in an array.
 
-### `add_top_border(color, width)`
-### `add_right_border(color, width)`
-### `add_bottom_border(color, width)`
-### `add_left_border(color, width)`
+#### `add_top_border(color, width)`
+#### `add_right_border(color, width)`
+#### `add_bottom_border(color, width)`
+#### `add_left_border(color, width)`
 
 These methods are used by the `add_borders` method and can be called independently if needed. 
+
+### UIImage
+
+#### `pad_to(size, args={})`
+
+Pads the size of an image to the specified size.
 
 ## Installation
 
