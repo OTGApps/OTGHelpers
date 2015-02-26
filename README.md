@@ -16,6 +16,10 @@ Automatically resizes a UILabel's height based on its contents. Optionally, it c
 
 Runs `UIImage.imageNamed(self)` for the string.
 
+#### `nsurl`
+
+Returns the string as an `NSURL`
+
 ### UIView
 
 #### `add_borders(locations, color, width = 1)`
