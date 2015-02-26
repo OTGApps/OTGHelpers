@@ -35,6 +35,10 @@ These methods are used by the `add_borders` method and can be called independent
 
 Pads the size of an image to the specified size.
 
+#### `template`
+
+Returns a UIImage with UIImageRenderingModeAlwaysTemplate
+
 ## Installation
 
 Add this line to your application's Gemfile:
