@@ -11,6 +11,14 @@ class UIView
     end
     self
   end
+  alias :add_border :add_borders
+
+  def remove_borders
+    self.layer.sublayers.copy.each do |layer|
+      layer.removeFromSuperlayer
+    end if self.layer.sublayers
+  end
+  alias :remove_border :remove_borders
 
   def add_top_border(color, width)
     add_border_with_frame(color, CGRectMake(0, 0, CGRectGetWidth(self.frame), width))

@@ -22,7 +22,7 @@ Returns the string as an `NSURL`
 
 ### UIView
 
-#### `add_borders(locations, color, width = 1)`
+#### `add_borders(locations, color, width = 1)` aliased as `add_border`
 
 Adds borders in specified locations on a `UIView`. Possible locations are: `[:top, :left, :right, :bottom]` and can be passed singularly or in an array.
 
@@ -31,7 +31,11 @@ Adds borders in specified locations on a `UIView`. Possible locations are: `[:to
 #### `add_bottom_border(color, width)`
 #### `add_left_border(color, width)`
 
-These methods are used by the `add_borders` method and can be called independently if needed. 
+These methods are used by the `add_borders` method and can be called independently if needed.
+
+#### `remove_borders` aliased as `remove_border`
+
+Removes all borders you've added on a UIView (may also remove other things you've added to the view's `layer`, so be careful with this one!)
 
 ### UIImage
 
