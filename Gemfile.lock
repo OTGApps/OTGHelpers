@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    OTGHelpers (0.0.4)
+    OTGHelpers (0.0.5)
 
 GEM
   remote: https://rubygems.org/
@@ -14,3 +14,6 @@ PLATFORMS
 DEPENDENCIES
   OTGHelpers!
   rake
+
+BUNDLED WITH
+   1.12.5

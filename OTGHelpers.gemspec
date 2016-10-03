@@ -1,9 +1,10 @@
 # -*- encoding: utf-8 -*-
-VERSION = "0.0.4"
+
+require File.expand_path('../lib/project/version', __FILE__)
 
 Gem::Specification.new do |spec|
   spec.name          = "OTGHelpers"
-  spec.version       = VERSION
+  spec.version       = OTGHelpers::VERSION
   spec.authors       = ["Mark Rickert"]
   spec.email         = ["mjar81@gmail.com"]
   spec.description   = "A set of class extenstions I commonly use in my applications for RubyMotion."
@@ -19,5 +20,5 @@ Gem::Specification.new do |spec|
   spec.test_files    = spec.files.grep(%r{^(test|spec|features)/})
   spec.require_paths = ["lib"]
 
-  spec.add_development_dependency "rake"
+  spec.add_development_dependency "rake", "~> 0"
 end
